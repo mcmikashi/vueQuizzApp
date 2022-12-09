@@ -3,7 +3,8 @@
     <div class="progress">
       <div class="bar" :style="{ width: `${progressBarWidth}%` }"></div>
       <div class="status">
-        {{ currentQuestion }} out of {{ questions.length }} questions answered</div>
+        {{ currentQuestion }} out of {{ questions.length }} questions answered
+      </div>
     </div>
     <div
       class="single-question"
